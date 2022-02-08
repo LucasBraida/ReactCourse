@@ -1,38 +1,42 @@
-.Menu {
+.menu{
     display: flex;
-    flex-basis: 250px;
-
-    background: linear-gradient(to top, #00b4db, #006c90);
-    
-    z-index: 1;
-    -webkit-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
-    -moz-box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
-    box-shadow: 4px 0px 17px -5px rgba(0,0,0,0.75);
+    flex-direction: column;
 }
 
-.Menu nav {
-    flex-grow: 1;
+.menu--top{
+    background-color: #003246;
+    margin: 0px;
+    width: 250px;
+    padding: 20px;
+    color: #F5F5F5;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+    box-shadow: 0px 5px 5px 0px rgba(7, 7, 7, 0.2);
 }
 
-.Menu ul {
-    list-style: none;
-    padding: 0;
-}
-
-.Menu li {
-    display: flex;
-}
-
-.Menu li a {
+.menu--nav{
+    background-color: #0387B1;
     flex: 1;
-    padding: 10px;
-    margin-bottom: 10px;
-
-    text-decoration: none;
-    color: #fff;
-    font-size: 1.5rem;
 }
 
-.Menu li a:hover {
-    background: #00000020;
+.menu--nav ul{
+    list-style: none;
+}
+
+.menu--nav li{
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.menu--nav--link{
+    text-decoration: none;
+    flex: 1;
+    color: #F5F5F5;
+    font-size: 1.6rem;
+    padding: 5px;
+}
+
+.menu--nav--link:hover{
+    background-color: rgba(36, 34, 34, 0.171);
 }
