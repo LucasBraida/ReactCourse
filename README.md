@@ -1,2 +1,2 @@
 # ReactCourse
-A few React concept implementations and basic projects
+A few React concept's implementations and basic projects
