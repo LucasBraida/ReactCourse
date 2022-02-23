@@ -1,10 +1,11 @@
 import React from "react"
+import PageHeader from "../template/PageHeader"
 
 
 export default function About(props){
     return(
         <div>
-            <h1>Sobre</h1>
+            <PageHeader title="Sobre"></PageHeader>
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from "react"
+import PageHeader from "../template/PageHeader"
 
 
 export default function Todo(props){
     return(
         <div>
-            <h1>ToDo</h1>
+            <PageHeader title="ToDo" subtitle="Cadastro"></PageHeader>
         </div>
     )
 }

@@ -1,5 +1,5 @@
 import React from "react"
-
+import {Link} from "react-router"
 export default function Menu(props) {
     return (
         <nav className="navbar navbar-inverse bg-inverse">
